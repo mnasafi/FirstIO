@@ -1,10 +1,11 @@
+// Author: Mustafa Nasafi
+
 #include <iostream>
 #include <string>
 
-int main() {
-    std::string input;
-    std::cout << "What's your first name?" << std::endl;
-    std::cin >> input;
-    std::cout << "Hello, " << input << std::endl;
+int main() 
+{
+    std::cout << "Hi, my name is Mustafa" << std::endl; // greeting with first name
     return 0;
 }
+
